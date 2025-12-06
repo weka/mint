@@ -24,7 +24,7 @@ dependencies {
     implementation("software.amazon.awssdk:netty-nio-client")
 
     // jackson dependency
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.+")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.+")
 }
 
 tasks.withType<ShadowJar> {
